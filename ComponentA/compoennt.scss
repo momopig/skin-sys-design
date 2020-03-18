@@ -1,0 +1,20 @@
+
+// 默认样式
+.componentA-component {
+  // ...
+}
+[data-theme='theme-1'] {
+  .componentA-component {
+    // 重写部分
+  }
+}
+[data-theme='theme-2'] {
+  .componentA-component {
+    // 重写部分
+  }
+}
+[data-theme='theme-3'] {
+  .componentA-component {
+    // 重写部分
+  }
+}
